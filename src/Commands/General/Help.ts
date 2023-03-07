@@ -18,7 +18,9 @@ export default class extends BaseCommand {
             })).filter((command) => command.data.config.category !== 'dev')
             const { nsfw } = await this.client.DB.getGroup(M.from)
             if (!nsfw) commands = commands.filter(({ data }) => data.config.category !== 'nsfw')
-            const buffer = this.client.assets.get('chisato') as Buffer
+            const buffer = this.client.assets.get('help') as Buffer
+
+return void (await M.reply(buffer, 'video', true, undefined, text, [M.sender.jid]))
             let text = `\n*╭─「 (づ￣ ³￣)づ 」*
 *│ ɴᴀᴍᴇ:* ${this.client.config.name}
 *│ ᴜsᴇʀ: @${M.sender.jid.split('@')[0]}*
