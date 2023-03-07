@@ -41,7 +41,7 @@
 
 > Chisato-WhatsApp is free and open-source software licensed under the [GNU Affero General Public License v3.0](https://github.com/AliAryanTech/Chisato-WhatsApp/blob/master/LICENSE)
 
-## Support 🍪
+## Supprt 🍪
 
 <a href="https://chat.whatsapp.com/IDXPYkGVTjw6GbSnMbVNcK">
   <img src="https://img.shields.io/badge/Support_Group-0a0a0a?style=for-the-badge&logo=whatsapp&logoColor=white">
